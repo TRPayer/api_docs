@@ -9,8 +9,10 @@ info:
     url: http://www.apache.org/licenses/LICENSE-2.0.html
   version: 2.1.0
 servers:
-  - url: https://payerv2.test
+  - url: https://payer.com.tr
     description: Payer API Server
+  - url: https://testapp.payer.com.tr
+    description: Payer API Test Server
 paths:
   "/api/v2/cargo/providers":
     get:
