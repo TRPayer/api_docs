@@ -3610,25 +3610,15 @@ components:
     LoginRequest:
       properties:
         client_id:
-          schema:
-            type: string
           format: string
         client_secret:
-          schema:
-            type: string
           format: string
         grant_type:
-          schema:
-            type: string
           format: string
           default: password
         username:
-          schema:
-            type: string
           format: string
         password:
-          schema:
-            type: string
           format: string
       type: object
     MNGCargoClientRequest:
